@@ -1,6 +1,6 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(says)
-  if says.downcase
+  if says.downcase || says.capitalize
     return "HUH?! SPEAK UP, SONNY!"
   end
 end
