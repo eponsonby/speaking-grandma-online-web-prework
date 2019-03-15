@@ -5,6 +5,12 @@ def speak_to_grandma(says)
   end
 end
 
+def speak_to_grandma(says)
+  if says.upcase
+    return "I LOVE YOU TOO PUMPKIN!"
+  end
+end
+
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
