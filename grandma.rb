@@ -5,11 +5,6 @@ def speak_to_grandma(says)
   end
 end
 
-def speak_to_grandma(shouting)
-  if shouting.upcase
-    return "I LOVE YOU TOO PUMPKIN!"
-  end
-end
 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
