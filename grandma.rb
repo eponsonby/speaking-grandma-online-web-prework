@@ -2,6 +2,10 @@
 def speak_to_grandma(says)
   if says.downcase || says.capitalize
     return "HUH?! SPEAK UP, SONNY!"
+  elsif says == "I LOVE YOU GRANDMA!"
+    return "I LOVE YOU TOO PUMPKIN!"
+  elsif says.upcase
+    return "NO, NOT SINCE 1938!"
   end
 end
 
