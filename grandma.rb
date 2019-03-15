@@ -5,8 +5,8 @@ def speak_to_grandma(says)
   end
 end
 
-def speak_to_grandma(says)
-  if says.upcase
+def speak_to_grandma(shouting)
+  if shouting.upcase
     return "I LOVE YOU TOO PUMPKIN!"
   end
 end
